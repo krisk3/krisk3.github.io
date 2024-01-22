@@ -1,0 +1,835 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+
+  <title>Geeky Developer</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="HandheldFriendly" content="true">
+  <meta name="author" content="beshleyua" />
+
+  <!-- Fonts -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rubik%3A300%2C300i%2C400%2C400i%2C500%2C500i%2C600%2C600i%2C700%2C700i%2C800%2C800i%2C900%2C900i%7CSorts+Mill+Goudy&#038;display=swap" type="text/css" media="all" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto+Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&#038;display=auto" type="text/css" media="all" />
+
+  <!-- CSS STYLES -->
+  <link rel="stylesheet" href="assets/css/vendors/bootstrap.css" type="text/css" media="all" />
+  <link rel="stylesheet" href="assets/fonts/font-awesome/css/font-awesome.css" type="text/css" media="all" />
+  <link rel="stylesheet" href="assets/css/vendors/magnific-popup.css" type="text/css" media="all" />
+  <link rel="stylesheet" href="assets/css/vendors/splitting.css" type="text/css" media="all" />
+  <link rel="stylesheet" href="assets/css/vendors/swiper.css" type="text/css" media="all" />
+  <link rel="stylesheet" href="assets/css/vendors/animate.css" type="text/css" media="all" />
+  <link rel="stylesheet" href="assets/css/main.css" type="text/css" media="all" />
+
+  <!-- Favicon -->
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<link rel="icon" href="favicon.ico" type="image/x-icon">
+
+</head>
+
+<body class="home page light-skin">
+	<div class="container-page ">
+
+    <!-- Preloader -->
+    <div class="preloader">
+      <div class="centrize full-width">
+        <div class="vertical-center">
+          <div class="spinner-logo">
+            <img src="assets/images/logo.png" alt="" />
+            <div class="spinner-dot"></div>
+            <div class="spinner spinner-line"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Header -->
+    <header class="header">
+      <div class="header__builder">
+        <div class="row">
+          <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+
+            <!-- logo -->
+            <div class="logo">
+              <a href="index.html">
+                <img src="assets/images/logo.png" alt="Logo" />
+              </a>
+            </div>
+
+          </div>
+          <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 align-right">
+
+            <!-- switcher btn -->
+            <a href="#" class="switcher-btn">
+              <span class="sw-before">
+                <svg xmlns="http://www.w3.org/2000/svg" width="22.22" height="22.313" viewBox="0 0 22.22 22.313">
+                  <path fill="#fff" d="M1752.49,105.511a5.589,5.589,0,0,0-3.94-1.655,5.466,5.466,0,0,0-3.94,1.655,5.61,5.61,0,0,0,3.94,9.566,5.473,5.473,0,0,0,3.94-1.653,5.643,5.643,0,0,0,1.65-3.957A5.516,5.516,0,0,0,1752.49,105.511Zm-1.06,6.85a4.1,4.1,0,0,1-5.76,0,4.164,4.164,0,0,1,0-5.788A4.083,4.083,0,0,1,1751.43,112.361Zm7.47-3.662h-2.27a0.768,0.768,0,0,0,0,1.536h2.27A0.768,0.768,0,0,0,1758.9,108.7Zm-10.35,8.12a0.777,0.777,0,0,0-.76.769v2.274a0.777,0.777,0,0,0,.76.767,0.786,0.786,0,0,0,.77-0.767v-2.274A0.786,0.786,0,0,0,1748.55,116.819Zm7.85-.531-1.62-1.624a0.745,0.745,0,0,0-1.06,0,0.758,0.758,0,0,0,0,1.063l1.62,1.625a0.747,0.747,0,0,0,1.06,0A0.759,0.759,0,0,0,1756.4,116.288ZM1748.55,98.3a0.777,0.777,0,0,0-.76.768v2.273a0.778,0.778,0,0,0,.76.768,0.787,0.787,0,0,0,.77-0.768V99.073A0.786,0.786,0,0,0,1748.55,98.3Zm7.88,3.278a0.744,0.744,0,0,0-1.06,0l-1.62,1.624a0.758,0.758,0,0,0,0,1.063,0.745,0.745,0,0,0,1.06,0l1.62-1.624A0.758,0.758,0,0,0,1756.43,101.583Zm-15.96,7.116h-2.26a0.78,0.78,0,0,0-.77.768,0.76,0.76,0,0,0,.77.768h2.26A0.768,0.768,0,0,0,1740.47,108.7Zm2.88,5.965a0.745,0.745,0,0,0-1.06,0l-1.62,1.624a0.759,0.759,0,0,0,0,1.064,0.747,0.747,0,0,0,1.06,0l1.62-1.625A0.758,0.758,0,0,0,1743.35,114.664Zm0-11.457-1.62-1.624a0.744,0.744,0,0,0-1.06,0,0.758,0.758,0,0,0,0,1.063l1.62,1.624a0.745,0.745,0,0,0,1.06,0A0.758,0.758,0,0,0,1743.35,103.207Z" transform="translate(-1737.44 -98.313)"/>
+                </svg>
+              </span>
+              <span class="sw-after">
+                <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 23 23">
+                  <path fill="#fff" d="M1759.46,111.076a0.819,0.819,0,0,0-.68.147,8.553,8.553,0,0,1-2.62,1.537,8.167,8.167,0,0,1-2.96.531,8.655,8.655,0,0,1-8.65-8.682,9.247,9.247,0,0,1,.47-2.864,8.038,8.038,0,0,1,1.42-2.54,0.764,0.764,0,0,0-.12-1.063,0.813,0.813,0,0,0-.68-0.148,11.856,11.856,0,0,0-6.23,4.193,11.724,11.724,0,0,0,1,15.387,11.63,11.63,0,0,0,19.55-5.553A0.707,0.707,0,0,0,1759.46,111.076Zm-4.5,6.172a10.137,10.137,0,0,1-14.29-14.145,10.245,10.245,0,0,1,3.38-2.836c-0.14.327-.29,0.651-0.41,1.006a9.908,9.908,0,0,0-.56,3.365,10.162,10.162,0,0,0,10.15,10.189,9.776,9.776,0,0,0,3.49-.62,11.659,11.659,0,0,0,1.12-.473A10.858,10.858,0,0,1,1754.96,117.248Z" transform="translate(-1737 -98)"/>
+                </svg>
+              </span>
+            </a>
+
+            <!-- menu btn -->
+            <a href="#" class="menu-btn"><span></span></a>
+
+          </div>
+        </div>
+      </div>
+
+      <!-- Menu Full Overlay -->
+      <div class="menu-full-overlay">
+        <div class="menu-full-container">
+          <div class="container">
+            <div class="row">
+              <div class="col-xs-12 col-sm-12 col-md-12 col-lg-10 offset-1">
+
+                <!-- menu full -->
+                <div class="menu-full">
+                  <ul class="menu-full">
+                    <li class="menu-item">
+                      <a class="splitting-text-anim-2" data-splitting="chars" href="#about-section">About</a>
+                    </li>
+                    <li class="menu-item">
+                      <a class="splitting-text-anim-2" data-splitting="chars" href="#resume-section">Resume</a>
+                    </li>
+                    <li class="menu-item">
+                      <a class="splitting-text-anim-2" data-splitting="chars" href="#works-section">Projects</a>
+                    </li>
+                    <!--<li class="menu-item">
+                      <a class="splitting-text-anim-2" data-splitting="chars" href="#pricing-section">Testimonials</a>
+                    </li>
+                    <li class="menu-item">
+                      <a class="splitting-text-anim-2" data-splitting="chars" href="#blog-section">Notes</a>
+                    </li>-->
+                    <li class="menu-item">
+                      <a class="splitting-text-anim-2" data-splitting="chars" href="">Trips</a>
+                    </li>
+                    <li class="menu-item">
+                      <a class="splitting-text-anim-2" data-splitting="chars" href="#contact-section">Contact</a>
+                    </li>
+                    <!--<li class="menu-item menu-item-has-children has-children">
+                      <a class="splitting-text-anim-2" data-splitting="chars">Pages</a>
+                      <ul class="sub-menu">
+                        <li class="menu-item"><a class="splitting-text-anim-1" data-splitting="chars" href="works.html">Works (grid)</a></li>
+                        <li class="menu-item"><a class="splitting-text-anim-1" data-splitting="chars" href="works-list.html">Works (list)</a></li>
+                        <li class="menu-item"><a class="splitting-text-anim-1" data-splitting="chars" href="work-single.html">Work Single Page</a></li>
+                        <li class="menu-item"><a class="splitting-text-anim-1" data-splitting="chars" href="blog.html">Blog Posts</a></li>
+                        <li class="menu-item"><a class="splitting-text-anim-1" data-splitting="chars" href="blog-single.html">Blog Single Post</a></li>
+                      </ul>
+                    </li>-->
+                  </ul>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- social -->
+        <div class="menu-social-links">
+          <a href="https://www.linkedin.com/in/kuriakose-kuruvila/" target="blank" class="scrolla-element-anim-1" title="dribbble">
+            <i class="fab fa-linkedin"></i>
+          </a>
+          <a href="https://github.com/krisk3" target="blank" class="scrolla-element-anim-1" title="Github">
+            <i class="fab fa-github"></i>
+          </a>
+          <a href="https://api.whatsapp.com/send?phone=919995112055" target="blank" class="scrolla-element-anim-1" title="Whatsapp">
+            <i class="fab fa-whatsapp"></i>
+          </a>
+        </div>
+
+      </div>
+
+    </header>
+
+		<!-- Wrapper -->
+		<div class="wrapper">
+
+      <!-- Section -->
+      <section class="section section-started">
+        <div class="container">
+
+          <!-- Hero Started -->
+          <div class="hero-started">
+            <div class="slide scrolla-element-anim-1 scroll-animate" data-animate="active">
+              <img src="assets/images/guy.png" alt="" />
+              <span class="circle circle-1">
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="749px" height="375px"><path fill-rule="evenodd" fill="#ff8059" d="M749.000,0.000 C749.000,206.786 581.459,374.514 374.608,374.514 C167.758,374.514 -0.000,206.786 -0.000,0.000 "/></svg>
+              </span>
+              <span class="circle circle-2">
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="416px" height="209px"><path fill-rule="evenodd"  fill="#3aafc9" d="M-0.000,209.000 C-0.000,94.252 93.051,0.745 207.835,0.745 C322.619,0.745 416.000,94.252 416.000,209.000 "/></svg>
+              </span>
+              <span class="circle circle-3">
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="416px" height="209px"><path fill-rule="evenodd"  fill="#b9d1e4" d="M-0.000,209.000 C-0.000,94.252 93.051,0.745 207.835,0.745 C322.619,0.745 416.000,94.252 416.000,209.000 "/></svg>
+              </span>
+              <span class="circle circle-4">
+                <svg  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="121px" height="241px"><path fill-rule="evenodd"  fill="#676cdb" d="M0.000,0.000 C66.624,0.000 120.402,54.096 120.402,120.733 C120.402,187.371 66.624,241.000 0.000,241.000 "/></svg>
+              </span>
+              <span class="circle circle-5">
+                <svg  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="232px" height="117px"><path fill-rule="evenodd"  fill="rgb(255, 208, 65)" d="M232.000,0.000 C232.000,64.151 180.376,116.580 116.238,116.580 C52.100,116.580 0.000,64.151 0.000,0.000 "/></svg>
+              </span>
+            </div>
+            <div class="content">
+              <div class="titles">
+                <div class="subtitle splitting-text-anim-2 scroll-animate" data-splitting="chars" data-animate="active">
+                  Software Developer
+                </div>
+                <h2 class="title splitting-text-anim-1 scroll-animate" data-splitting="chars" data-animate="active">
+                  Kuriakose <br>Kuruvila
+                </h2>
+              </div>
+              <div class="description scrolla-element-anim-1 scroll-animate" data-animate="active">
+                <p>
+                  I'm a Freelance Developer from India. I love programming, travelling, teaching &amp; music.
+                </p>
+                <div class="social-links">
+                  <a target="_blank" rel="nofollow" href="https://www.linkedin.com/in/kuriakose-kuruvila/">
+                    <i aria-hidden="true" class="fab fa-linkedin"></i>
+                  </a>
+                  <a target="_blank" rel="nofollow" href="https://github.com/krisk3">
+                    <i aria-hidden="true" class="fab fa-github"></i>
+                  </a>
+                  <a target="_blank" rel="nofollow" href="https://api.whatsapp.com/send?phone=919995112055">
+                    <i aria-hidden="true" class="fab fa-whatsapp"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="info-list">
+              <ul>
+                <li class="scrolla-element-anim-1 scroll-animate" data-animate="active">
+                  Born in <strong>Kerala</strong>
+                </li>
+                <li class="scrolla-element-anim-1 scroll-animate" data-animate="active">
+                  Experience <strong>3+ Years</strong>
+                </li>
+                <li class="scrolla-element-anim-1 scroll-animate" data-animate="active">
+                  Date of Birth <strong>25 Jan 2001</strong>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <section class="section section-bg section-parallax-1" id="about-section">
+        <div class="container">
+
+          <!-- Section Heading -->
+          <div class="m-titles">
+            <h2 class="m-title splitting-text-anim-1 scroll-animate" data-splitting="chars" data-animate="active">
+              About Me
+            </h2>
+          </div>
+
+          <div class="row row-custom">
+            <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 align-right">
+
+              <!-- Section numbers -->
+              <div class="numbers-items">
+                <div class="numbers-item scrolla-element-anim-1 scroll-animate" data-animate="active">
+                  <div class="icon">
+                    <i aria-hidden="true" class="fas fa-star"></i>
+                  </div>
+                  <div class="num">8.73</div>
+                  <div class="title">CGPA</div>
+                </div>
+                <div class="numbers-item scrolla-element-anim-1 scroll-animate" data-animate="active">
+                  <div class="icon">
+                    <i aria-hidden="true" class="far fa-smile"></i>
+                  </div>
+                  <div class="num">7</div>
+                  <div class="title">Happy <br>Clients</div>
+                </div>
+                <div class="numbers-item scrolla-element-anim-1 scroll-animate" data-animate="active">
+                  <div class="icon">
+                    <i aria-hidden="true" class="fas fa-check-circle"></i>
+                  </div>
+                  <div class="num">30+</div>
+                  <div class="title">Skills <br>Mastered</div>
+                </div>
+              </div>
+
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 vertical-line">
+
+              <!-- Section Profile -->
+              <div class="profile-box">
+                <div class="text scrolla-element-anim-1 scroll-animate" data-animate="active">
+                  <p>
+                    My name is Kuriakose Kuruvila Anathanam. I am an undergraduate student at SRM Institute of Science and Technology under SRM University. I live in Chennai, but you might spot me in Bengaluru or Kochi frequently.</p>
+                  <p>I am a Computer Science Engineering student working as a freelance developer with a strong background in Python and C++, specializing in backend development using the Django framework. I have experience in designing and implementing APIs, testing, web scraping, chatbot development and more.
+                  </p>
+                  <p>
+                    As a freelancer, I am dedicated to delivering high-quality, efficient and robust solutions for my clients, always eager to take on new and challenging projects. In addition, I also enjoy teaching and sharing my knowledge and skills with others.
+                  </p>
+                  <a href="#contact-section" class="btn scrolla-element-anim-1 scroll-animate" data-animate="active">Contact Me</a>
+                  <!--<div class="signature scrolla-element-anim-1 scroll-animate" data-animate="active">
+                    <img src="assets/images/signature.png" alt="" />
+                  </div>-->
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <section class="section section-parallax-2" id="resume-section">
+        <div class="container">
+
+          <!-- Section Heading -->
+          <div class="m-titles">
+            <h2 class="m-title splitting-text-anim-1 scroll-animate" data-splitting="chars" data-animate="active">
+              My Resume
+            </h2>
+          </div>
+
+          <div class="row row-custom">
+            <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 vertical-line">
+
+              <!-- Description -->
+              <div class="text scrolla-element-anim-1 scroll-animate" data-animate="active">
+                <p>
+                Software Developer with years of experience, I have a proven track record of delivering high-quality, innovative software solutions to clients in a variety of industries. My expertise lies in developing web and mobile applications using languages such as Python and JavaScript. I can also code programs using C++.
+                </p>
+                I have expertise in developing back-end of applications using Django, integrating RESTful APIs, scraping data from web using Scrapy, developing chatbots using Rasa, visualizing data using Matplotlib and analysing data using NumPy & Pandas. Additionally, I have experience with database technologies such as MySQL & PostgreSQL, version control systems such as Git & GitHub and containerization tools like Docker.
+                <p>
+                </p>
+                I am a team player and a problem-solver who is dedicated to delivering projects on time and within budget.
+                <p>
+                </p>
+              </div>
+
+              <!-- Skills -->
+              <div class="skills-items">
+                <a href="https://www.linkedin.com/in/kuriakose-kuruvila/details/skills/" target="blank" style="text-decoration: none;"><div class="p-title scrolla-element-anim-1 scroll-animate" data-animate="active">TOP SKILLS</div></a>
+                <div class="skills-item scrolla-element-anim-1 scroll-animate" data-animate="active">
+                  <div class="name">Python</div>
+                  <div class="dots dots-90">
+                    <div class="dots-row">
+                      <div class="dot"></div>
+                      <div class="dot"></div>
+                      <div class="dot"></div>
+                      <div class="dot"></div>
+                      <div class="dot"></div>
+                      <div class="dot"></div>
+                      <div class="dot"></div>
+                      <div class="dot"></div>
+                      <div class="dot"></div>
+                      <div class="dot"></div>
+                    </div>
+                  </div>
+                  <div class="value"><span class="num">90%</span></div>
+                </div>
+                <div class="skills-item scrolla-element-anim-1 scroll-animate" data-animate="active">
+                  <div class="name">Django</div>
+                  <div class="dots dots-90">
+                    <div class="dots-row">
+                      <div class="dot"></div>
+                      <div class="dot"></div>
+                      <div class="dot"></div>
+                      <div class="dot"></div>
+                      <div class="dot"></div>
+                      <div class="dot"></div>
+                      <div class="dot"></div>
+                      <div class="dot"></div>
+                      <div class="dot"></div>
+                      <div class="dot"></div>
+                    </div>
+                  </div>
+                  <div class="value"><span class="num">90%</span></div>
+                </div>
+                <div class="skills-item scrolla-element-anim-1 scroll-animate" data-animate="active">
+                  <div class="name">SQL</div>
+                  <div class="dots dots-80">
+                    <div class="dots-row">
+                      <div class="dot"></div>
+                      <div class="dot"></div>
+                      <div class="dot"></div>
+                      <div class="dot"></div>
+                      <div class="dot"></div>
+                      <div class="dot"></div>
+                      <div class="dot"></div>
+                      <div class="dot"></div>
+                      <div class="dot"></div>
+                      <div class="dot"></div>
+                    </div>
+                  </div>
+                  <div class="value"><span class="num">80%</span></div>
+                </div>
+                <div class="skills-item scrolla-element-anim-1 scroll-animate" data-animate="active">
+                  <div class="name">API</div>
+                  <div class="dots dots-80">
+                    <div class="dots-row">
+                      <div class="dot"></div>
+                      <div class="dot"></div>
+                      <div class="dot"></div>
+                      <div class="dot"></div>
+                      <div class="dot"></div>
+                      <div class="dot"></div>
+                      <div class="dot"></div>
+                      <div class="dot"></div>
+                      <div class="dot"></div>
+                      <div class="dot"></div>
+                    </div>
+                  </div>
+                  <div class="value"><span class="num">80%</span></div>
+                </div>
+                <div class="skills-item scrolla-element-anim-1 scroll-animate" data-animate="active">
+                  <div class="name">Docker</div>
+                  <div class="dots dots-70">
+                    <div class="dots-row">
+                      <div class="dot"></div>
+                      <div class="dot"></div>
+                      <div class="dot"></div>
+                      <div class="dot"></div>
+                      <div class="dot"></div>
+                      <div class="dot"></div>
+                      <div class="dot"></div>
+                      <div class="dot"></div>
+                      <div class="dot"></div>
+                      <div class="dot"></div>
+                    </div>
+                  </div>
+                  <div class="value"><span class="num">70%</span></div>
+                </div>
+              </div>
+
+              <!-- Services -->
+              <div class="p-title scrolla-element-anim-1 scroll-animate" data-animate="active">SERVICES</div>
+              <div class="services-items">
+                <div class="services-col">
+                  <div class="services-item scrolla-element-anim-1 scroll-animate" data-animate="active">
+                    <div class="icon">
+                      <i aria-hidden="true" class="fab fa-chrome"></i>
+                    </div>
+                    <div class="title">Web development</div>
+                    <div class="text">
+                      <p>Design, develop and maintain websites and web applications using a variety of technologies and programming languages.</p>
+                    </div>
+                    <a href="#contact-section" class="lnk">Contact Now</a>
+                  </div>
+                </div>
+                <div class="services-col">
+                  <div class="services-item scrolla-element-anim-1 scroll-animate" data-animate="active">
+                    <div class="icon">
+                      <i aria-hidden="true" class="fas fa-mobile"></i>
+                    </div>
+                    <div class="title">App Development</div>
+                    <div class="text">
+                      <p>Develop applications for mobile devices using programming languages and frameworks that can run on multiple operating systems.</p>
+                    </div>
+                    <a href="#contact-section" class="lnk">Contact Now</a>
+                  </div>
+                </div>
+                <div class="services-col">
+                  <div class="services-item scrolla-element-anim-1 scroll-animate" data-animate="active">
+                    <div class="icon">
+                      <i aria-hidden="true" class="fas fa-robot"></i>
+                    </div>
+                    <div class="title">Chatbot Development</div>
+                    <div class="text">
+                      <p>Develop conversational bots that can interact with users in natural language, providing a variety of services such as customer support, automating tasks etc.</p>
+                    </div>
+                    <a href="#contact-section" class="lnk">Contact now</a>
+                  </div>
+                </div>
+                <div class="services-col">
+                  <div class="services-item scrolla-element-anim-1 scroll-animate" data-animate="active">
+                    <div class="icon">
+                      <i aria-hidden="true" class="fas fa-laptop"></i>
+                    </div>
+                    <div class="title">Software Development</div>
+                    <div class="text">
+                      <p>Design, develop, test, deploy and maintain computer programs, applications, and systems using various programming languages and tools.</p>
+                    </div>
+                    <a href="#contact-section" class="lnk">Contact now</a>
+                  </div>
+                </div>
+                <div class="services-col">
+                  <div class="services-item scrolla-element-anim-1 scroll-animate" data-animate="active">
+                    <div class="icon">
+                      <i aria-hidden="true" class="fas fa-chalkboard-teacher"></i>
+                    </div>
+                    <div class="title">Tutoring</div>
+                    <div class="text">
+                      <p>Conduct lectures in order to help students improve their understanding and mastery of specific subjects or skills.</p>
+                    </div>
+                    <a href="#contact-section" class="lnk">Contact now</a>
+                  </div>
+                </div>
+                <div class="services-col">
+                  <div class="services-item scrolla-element-anim-1 scroll-animate" data-animate="active">
+                    <div class="icon">
+                      <i aria-hidden="true" class="fas fa-hands-helping"></i>
+                    </div>
+                    <div class="title">Consulting</div>
+                    <div class="text">
+                      <p>Provides expert advice and guidance on technical issues and challenges to implement technology solutions and troubleshoot technical problems.</p>
+                    </div>
+                    <a href="#contact-section" class="lnk">Contact now</a>
+                  </div>
+                </div>
+              </div>
+
+              <!-- History -->
+              <div class="history-left">
+
+                <div class="history-items">
+                  <div class="p-title scrolla-element-anim-1 scroll-animate" data-animate="active">EDUCATION</div>
+                  <div class="history-item scrolla-element-anim-1 scroll-animate" data-animate="active">
+                    <div class="date">2017 - 2019</div>
+                    <div class="name">High School</div>
+                    <div class="subname">St. Antony's Public School</div>
+                  </div>
+                  <div class="history-item scrolla-element-anim-1 scroll-animate" data-animate="active">
+                    <div class="date">2020 - 2024</div>
+                    <div class="name">Bachelors in Technology</div>
+                    <div class="subname">SRM University</div>
+                  </div>
+                </div>
+
+                <!--<div class="history-items">
+                  <div class="p-title scrolla-element-anim-1 scroll-animate" data-animate="active">AWARDS</div>
+                  <div class="history-item scrolla-element-anim-1 scroll-animate" data-animate="active">
+                    <div class="date">2016 - awwwards</div>
+                    <div class="name">Google Cloud Startup </div>
+                    <div class="text">
+                      <p>Euismod vel bibendum ultrices, fringilla vel eros, donec euismod leo lectus.</p>
+                    </div>
+                  </div>
+                  <div class="history-item scrolla-element-anim-1 scroll-animate" data-animate="active">
+                    <div class="date">2015 - designnominees</div>
+                    <div class="name">Site of the Week</div>
+                    <div class="text">
+                      <p>Euismod vel bibendum ultrices, fringilla vel eros, donec euismod leo lectus.</p>
+                    </div>
+                  </div>
+                </div>-->
+
+              </div>
+
+              <div class="history-right">
+
+                <div class="history-items">
+                  <div class="p-title scrolla-element-anim-1 scroll-animate" data-animate="active">EXPERIENCE</div>
+                  <div class="history-item scrolla-element-anim-1 scroll-animate" data-animate="active">
+                    <div class="date">Dec 2021 - May 2022</div>
+                    <div class="name">Oman Coding Academy</div>
+                    <div class="subname">Python Tutor</div>
+                    <div class="text">
+                      <p></p>
+                    </div>
+                  </div>
+                  <div class="history-item scrolla-element-anim-1 scroll-animate" data-animate="active">
+                    <div class="date">Nov 2020 - Dec 2020</div>
+                    <div class="name">Krisko</div>
+                    <div class="subname">Web Developer</div>
+                    <div class="text">
+                      <p></p>
+                    </div>
+                  </div>
+                  <div class="history-item scrolla-element-anim-1 scroll-animate" data-animate="active">
+                    <div class="date">Dec 2020 - Feb 2021</div>
+                    <div class="name">Teach for India</div>
+                    <div class="subname">Teaching Intern</div>
+                    <div class="text">
+                      <p></p>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+
+              <div class="clear"></div>
+
+              <!-- Button CV -->
+              <a target="_blank" href="https://bslthemes.site/ober/wp-content/uploads/2021/12/Jacky-Smith-Resume.pdf" class="btn scrolla-element-anim-1 scroll-animate" data-animate="active">Download CV</a>
+
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <section class="section section-bg section-parallax-5" id="works-section">
+        <div class="container">
+
+          <!-- Section Heading -->
+          <div class="m-titles">
+            <h2 class="m-title splitting-text-anim-1 scroll-animate" data-splitting="chars" data-animate="active">
+              My Projects
+            </h2>
+          </div>
+
+          <div class="row row-custom">
+            <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 vertical-line">
+
+              <!-- Description -->
+              <div class="text scrolla-element-anim-1 scroll-animate" data-animate="active">
+          			<p>A Collection of my favorites project I’ve developed recently.</p>
+          		</div>
+
+            </div>
+          </div>
+
+          <!-- Works -->
+          <div class="works-box">
+
+            <!--<div class="filter-links scrolla-element-anim-1 scroll-animate" data-animate="active">
+              <a href="#" class="active" data-href=".works-col">All</a>
+              <a href="#" data-href=".sorting-ui-ux-design">UI UX Design</a>
+              <a href="#" data-href=".sorting-photo">Photography</a>
+              <a href="#" data-href=".sorting-development">Development</a>
+              <a href="#" data-href=".sorting-branding">Branding</a>
+            </div>-->
+
+            <div class="works-items works-list-items row">
+
+              <div class="works-col col-xs-12 col-sm-12 col-md-12 col-lg-12 sorting-branding sorting-photo ">
+                <div class="works-item">
+                  <a href="https://github.com/krisk3" target="_blank">
+                    <span class="image scrolla-element-anim-1 scroll-animate" data-animate="active">
+                      <span class="img">
+                        <img src="assets/images/work1.jpg" alt="Iris Card" />
+                        <span class="overlay"></span>
+                      </span>
+                    </span>
+                    <span class="desc">
+                      <span class="name splitting-text-anim-1 scroll-animate" data-splitting="chars" data-animate="active">
+                        Iris Card
+                      </span>
+                      <span class="category scrolla-element-anim-1 scroll-animate" data-animate="active">
+                        Flutter | Django
+                        <br /> PostgreSQL
+                      </span>
+                    </span>
+                  </a>
+                </div>
+              </div>
+
+              <div class="works-col col-xs-12 col-sm-12 col-md-12 col-lg-12 sorting-branding sorting-ui-ux-design ">
+                <div class="works-item">
+                  <a href="https://github.com/krisk3" target="_blank">
+                    <span class="image scrolla-element-anim-1 scroll-animate" data-animate="active">
+                      <span class="img">
+                        <img src="assets/images/work2.jpg" alt="MapMan" />
+                        <span class="overlay"></span>
+                      </span>
+                    </span>
+                    <span class="desc">
+                      <span class="name splitting-text-anim-1 scroll-animate" data-splitting="chars" data-animate="active">
+                        Map Man
+                      </span>
+                      <span class="category scrolla-element-anim-1 scroll-animate" data-animate="active">
+                        Python | JavaScript
+                        <br /> SQLite | Google Maps API
+                      </span>
+                    </span>
+                  </a>
+                </div>
+              </div>
+
+              <div class="works-col col-xs-12 col-sm-12 col-md-12 col-lg-12 sorting-development sorting-ui-ux-design ">
+                <div class="works-item">
+                  <a href="https://github.com/krisk3" target="_blank">
+                    <span class="image scrolla-element-anim-1 scroll-animate" data-animate="active">
+                      <span class="img">
+                        <img src="assets/images/work3.jpg" alt="Health Tracker Bot" />
+                        <span class="overlay"></span>
+                      </span>
+                    </span>
+                    <span class="desc">
+                      <span class="name splitting-text-anim-1 scroll-animate" data-splitting="chars" data-animate="active">
+                        Health Tracker Bot
+                      </span>
+                      <span class="category scrolla-element-anim-1 scroll-animate" data-animate="active">
+                        Pytho | Rasa
+                        <br />
+                      </span>
+                    </span>
+                  </a>
+                </div>
+              </div>
+
+
+
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+
+      <section class="section section-parallax-5">
+        <div class="container">
+
+          <!-- Section Heading -->
+          <div class="m-titles">
+            <h2 class="m-title splitting-text-anim-1 scroll-animate" data-splitting="chars" data-animate="active">My Trips</h2>
+          </div>
+
+          <div class="row row-custom">
+            <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 vertical-line">
+
+              <!-- Description -->
+              <div class="text scrolla-element-anim-1 scroll-animate" data-animate="active">
+                <p>Travelling allows us to experience new cultures and broaden their perspectives.</p>
+                <p>I love travelling because it allows me to escape my daily routine, explore new places, and create memories that last a lifetime.</p>
+              </div>
+              <a target="_blank" href="https://photos.app.goo.gl/JkM22EGjCk1EEzt36" class="btn scrolla-element-anim-1 scroll-animate" data-animate="active">View Photos</a>
+            </div>
+          </div>
+
+          <!--<div class="row clients-items">
+            <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 align-center">
+              <div class="clients-item"><img src="assets/images/brand1.png" alt="" /></div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 align-center">
+              <div class="clients-item"><img src="assets/images/brand2.png" alt="" /></div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 align-center">
+              <div class="clients-item"><img src="assets/images/brand3.png" alt="" /></div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 align-center">
+              <div class="clients-item"><img src="assets/images/brand4.png" alt="" /></div>
+            </div>
+          </div>-->
+
+        </div>
+      </section>
+
+      <section class="section section-bg section-parallax-2" id="contact-section">
+        <div class="container">
+
+          <!-- Section Heading -->
+          <div class="m-titles">
+            <h2 class="m-title splitting-text-anim-1 scroll-animate" data-splitting="chars" data-animate="active">Contact Me</h2>
+          </div>
+
+          <div class="row row-custom">
+            <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 align-right">
+
+              <!-- Section numbers -->
+              <div class="numbers-items contacts-items">
+                <div class="numbers-item scrolla-element-anim-1 scroll-animate" data-animate="active">
+                  <div class="icon">
+                    <i aria-hidden="true" class="fas fa-phone"></i>
+                  </div>
+                  <div class="num">+91 999 511 2055</div>
+                </div>
+                <div class="numbers-item scrolla-element-anim-1 scroll-animate" data-animate="active">
+                  <div class="icon">
+                    <i aria-hidden="true" class="fas fa-at"></i>
+                  </div>
+                  <div class="num" style="margin-right:20px;">kris.kuruvilla@gmail.com</div>
+                </div>
+                <div class="numbers-item scrolla-element-anim-1 scroll-animate" data-animate="active">
+                  <div class="icon">
+                    <i aria-hidden="true" class="fas fa-location-arrow"></i>
+                  </div>
+                  <div class="num">House No: 1148, Tower 1B, Prestige Bella Vista, Chennai - 600056</div>
+                </div>
+              </div>
+
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 vertical-line">
+
+              <!-- contact form -->
+              <div class="contacts-form scrolla-element-anim-1 scroll-animate" data-animate="active">
+                <form id="cform" method="post">
+                  <label>
+                    Name
+                    <input type="text" name="name" placeholder="Enter your full name" />
+                  </label>
+                  <label>
+                    Email Address
+                    <input type="email" name="email" placeholder="Enter your email address" />
+                  </label>
+                  <label>
+                    Message
+                    <textarea name="message" placeholder="Enter your message here"></textarea>
+                  </label>
+                  <a href="#" class="btn" onclick="$('#cform').submit(); return false;">Submit</a>
+                </form>
+              </div>
+              <div class="alert-success" style="display: none;">
+								<p>Thanks, your message is sent successfully.</p>
+							</div>
+
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+		</div>
+
+		<!-- Footer -->
+	  <div class="footer">
+      <div class="footer__builder">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 align-left">
+
+              <!-- social -->
+              <div class="social-links scrolla-element-anim-1 scroll-animate" data-animate="active">
+                <a target="_blank" rel="nofollow" href="https://www.linkedin.com/in/kuriakose-kuruvila/">
+                  <i aria-hidden="true" class="fab fa-linkedin"></i>
+                </a>
+                <a target="_blank" rel="nofollow" href="https://github.com/krisk3">
+                  <i aria-hidden="true" class="fab fa-github"></i>
+                </a>
+                <a target="_blank" rel="nofollow" href="https://api.whatsapp.com/send?phone=919995112055">
+                  <i aria-hidden="true" class="fab fa-whatsapp"></i>
+                </a>
+              </div>
+
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 align-center">
+              <div class="copyright-text scrolla-element-anim-1 scroll-animate" data-animate="active">© 2022. All Rights Reserved</div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 align-right">
+              <div class="copyright-text scrolla-element-anim-1 scroll-animate" data-animate="active">Developed with ❤️ by <strong>Kuriakose</strong></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+	</div>
+
+	<!-- cursor -->
+	<div class="cursor"></div>
+
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="assets/js/jquery.validate.min.js"></script>
+  <script src="assets/js/bootstrap.js"></script>
+  <script src="assets/js/swiper.js"></script>
+  <script src="assets/js/splitting.js"></script>
+  <script src="assets/js/jarallax.min.js"></script>
+  <script src="assets/js/magnific-popup.js"></script>
+  <script src="assets/js/imagesloaded.pkgd.js"></script>
+  <script src="assets/js/isotope.pkgd.js"></script>
+  <script src="assets/js/jquery.scrolla.js"></script>
+  <script src="assets/js/skrollr.js"></script>
+  <script src="assets/js/jquery.cookie.js"></script>
+  <script src="assets/js/common.js"></script>
+
+</body>
+</html>
